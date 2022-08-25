@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    background-color:#bc9f9f;
+}
+.logo{
+    width: 160px;
+    margin: auto;
+    
+}
+header{
+    width: 99.3%;
+    height: 120px;
+}
+nav menu{
+    width: 200px;
+}
+header img{
+ padding-left: 0px;
+}
+#slide img{
+ margin: auto;
+ width:100%;
+ height:605px;
+}
+nav{
+    height: 35px;
+    background-color:none;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 12px;
+}
+nav.menu ul li a.fashion{
+    color: rgb(226, 9, 75);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu ul li a.phukien1{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu ul li a.fashion:hover{
+    color: #131212;
+}
+nav.menu ul li a.phukien1:hover{
+    color: #605757;
+}
+.list img:hover{ 
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+li{
+    text-indent: 25px;
+}
+article .Fashion .list{
+    width: 28%;
+    padding: 2% ;
+    float: left;
+    border: 5px solid rgb(95, 62, 62);
+    margin-right: 6px;
+}
+
+article .Fashion .list1{
+    width: 43%;
+    padding: 2% ;
+    float: left;
+    border: 5px solid rgb(95, 62, 62);
+    margin-right: 20px;
+}
+article .Fashion .list1 img{
+    width: 360px;
+    height: 609px;
+    display: block;
+    margin: auto;
+}   
+article .Fashion1 .list{
+    width: 90%;
+    padding:10px ;
+    margin: auto;
+    border: 20px solid rgb(94, 63, 63);
+    text-align: center;
+}
+
+article .Fashion1 .list img{
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    display: block;
+}
+article .Fashion .list2{
+    width: 43.2%;
+    padding: 2% ;
+    float: left;
+    border: 7.2px solid rgb(95, 62, 62);
+    margin-right: 21px;
+}
+article .Fashion .list2 img{
+    width: 550px;
+    height: 360px;
+    display: block;
+    margin: auto;
+}   
+a{
+    padding-left: 12px;
+    font-style:inherit;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-left: 0.5px;
+    text-decoration: none
+}
+article .Fashion1 .list .content a1{
+    font-size: 20px;
+}
+article div .Fashion .list .content {
+    text-decoration: none;
+    font-style:inherit;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+article div .Fashion .list .content a:hover{
+    color: rgb(92, 80, 80);
+}
+article div .Fashion .list1 .content {
+    text-decoration: none;
+    font-style:inherit;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+article div .Fashion .list1 .content a:hover{
+    font-size: 21px;
+    background-color: #bc9f9f;
+}
+article div .Fashion .list2 .content {
+    text-decoration: none;
+    font-style:inherit;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+article div .Fashion .list2 .content a:hover{
+    color: #605757;
+}
+p{
+    padding-left: 126x;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+footer{
+    width: auto;
+    height: 40px;
+    background-color: #7e4a4a;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+footer span{
+    margin: 5px;
+}
+article .Fashion .list #a1{
+    font-size: 18PX;
+    color:black;
+    font-weight: bold;
+}
+article .Fashion .list #a1:hover
+{
+    color: #605757;
+}
+article .Fashion .list img{
+    width: 350px;
+    height: 500px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+}
+article .Fashion .list a img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    text-decoration: none;
+}
+.list{
+    margin-top: 12px;
+}
+nav.menu span{
+    width: 20px;
+    margin: 8px;
+    float:right;
+}
+nav.menu{
+    position:absolute;
+    top:80px;
+    bottom:100px;
+    left:20px;
+    right:0px;
+}
+.logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+.logo1{ 
+    width: 160px;
+    margin: auto;
+}
+h1{
+    width: 98.5%;
+}
+nav.menu1 ul li a.fashion{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu1 ul li a.phukien{
+    color: rgb(199, 44, 90);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu1 ul li a.fashion:hover{
+    color: #605757;
+}
+nav.menu1 ul li a.phukien:hover{
+    
+    color: #131212;
+}
+nav.menu1 ul li a.fashion2{
+    color: rgb(226, 9, 75);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu1 ul li a.phukien2{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu1 ul li a.fashion2:hover{
+    color: #131212;
+}
+nav.menu1 ul li a.phukien2:hover{
+    color: #605757;
+}
+ /*Hiệu ứng ảnh*/
+  .row {
+    margin-top: 12px;
+  }
+  
+  .column {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  figure {
+    overflow: hidden;
+  }  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .column img {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  /*Zoom In*/
+  .column#zoomIn img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .9s ease-in-out;
+    transition: .7s ease-in-out;
+  }
+  .column#zoomIn:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
